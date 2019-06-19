@@ -11,6 +11,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
+import java.util.function.IntFunction;
 
 /**
  * @description 方法引用相关单元测试
@@ -89,7 +90,11 @@ public class MethodReferenceTests {
      */
     @Test
     public void testNewIncetance() {
+        //普通类
         MyFunc myFunc = MyClass::new;
         myFunc.func(10);
+        //数组类型
+        IntFunction<int[]> arrayMaker = int[]::new;
+        int[] intArray = arrayMaker.apply(10);
     }
 }
