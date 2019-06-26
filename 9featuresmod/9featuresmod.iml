@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_9" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/pers.bruce.javafeatures._9featuresmod/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../9featuresmod2/pers.bruce.test/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pers.bruce.javafeatures._9featuresmod" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="9" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="KotlinJavaRuntime" level="project" />
+  </component>
+</module>

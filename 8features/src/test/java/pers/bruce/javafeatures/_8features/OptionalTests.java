@@ -56,7 +56,5 @@ public class OptionalTests {
         }catch (Exception e){
             System.out.println("设置空值异常："+e.getMessage());
         }
-
-
     }
 }
